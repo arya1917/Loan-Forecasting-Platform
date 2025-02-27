@@ -4,8 +4,8 @@ import numpy as np
 
 app = Flask(__name__)
 
-model = joblib.load('models/income_forecast_model.pkl')
-scaler = joblib.load('models/scaler.pkl')
+model = joblib.load('income_forecast_model.pkl')
+scaler = joblib.load('scaler.pkl')
 
 @app.route('/predict', methods=['POST'])
 def predict():
