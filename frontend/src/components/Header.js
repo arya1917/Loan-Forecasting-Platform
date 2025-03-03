@@ -4,8 +4,8 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <nav>
-            <h2>Loan Forecasting</h2>
+        <nav className="glass-container">
+            <h2>🌟 Loan Forecasting</h2>
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/dashboard">Dashboard</Link></li>
