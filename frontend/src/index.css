@@ -37,37 +37,13 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* Form Styles */
-form {
-  background: #fff;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
-  margin: auto;
+/* Page Content */
+.content {
+  padding: 40px;
+  text-align: center;
 }
 
-input, button {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-button {
-  background: #007bff;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  border: none;
-}
-
-button:hover {
-  background: #0056b3;
-}
-
-/* Footer Styles */
+/* Footer */
 footer {
   background: #007bff;
   color: white;
